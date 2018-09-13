@@ -17,12 +17,12 @@ sayHello()
 //parameter is name, data type of parameter String
 //concatenation of a String and parameter
 
-func sayHelloTo(name:String, age:Int) {
+func sayHelloTo(_ name:String, _ age:Int) {
     
     print("Hello \(name) you're \(age) old")
     
 }
-sayHelloTo(name:"Tom", age:35)
+sayHelloTo("Tom", 35)
 
 //In tutorial linke 19 reads: print("Hello \(name)")
 
