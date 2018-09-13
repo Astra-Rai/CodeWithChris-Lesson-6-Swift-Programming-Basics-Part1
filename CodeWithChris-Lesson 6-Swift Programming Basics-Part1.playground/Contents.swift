@@ -25,6 +25,12 @@ func sayHelloTo(_ name:String, _ age:Int) {
 sayHelloTo("Tom", 35)
 
 //In tutorial linke 19 reads: print("Hello \(name)")
-
-
 //added anther parameter to the function say hello do, name age, data type Int
+//function addFourTo, takes an Int input, adds to it and returns to us
+func addFourTo (x:Int) -> Int {
+    let sum = x + 4
+    return sum
+}
+
+var result = addFourTo(x:10)
+print(result)
